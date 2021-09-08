@@ -11,6 +11,12 @@ module.exports = {
       district: {
         type: Sequelize.STRING
       },
+      address: {
+        type: Sequelize.TEXT
+      },
+      street: {
+        type: Sequelize.TEXT
+      },
       price: {
         type: Sequelize.INTEGER,
         defaultValue: 0
